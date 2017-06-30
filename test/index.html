@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Some test page</title>
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" href="/css/lapti.css">
+
+  <style>
+    #lapti {
+      /*width: 50%;*/
+      height: 400px;
+    }
+
+    .noise {
+      height: 500px;
+      background: #fdfdfd;
+    }
+  </style>
+
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.10/handlebars.runtime.min.js" integrity="sha256-PGAt5UMOl8/WYTv2mCI/uKmVbQBP6VP++Jp8coXnxjY=" crossorigin="anonymous"></script>
+
+  <!-- TODO : compile these two scripts into one file -->
+  <script src="/js/templates.js"></script>
+  <script src="/js/lapti-plugin.js"></script>
+</head>
+<body>
+
+Привет! Мы проводим ICO!
+<div class="noise"></div>
+<div id="lapti" class="default"></div>
+<div class="noise"></div>
+Участвуйте.
+<div class="noise"></div>
+
+</body>
+</html>
+
+<!-- TODO : test the plugin by attaching the script both in <head> and in the end of file -->
