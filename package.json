@@ -3,7 +3,8 @@
   "private": true,
   "version": "0.0.1",
   "dependencies": {
-    "lapti-api": "*"
+    "lapti-api": "*",
+    "qrious": "^4.0.2"
   },
   "devDependencies": {
     "gulp": "^3.9.1",

@@ -13,6 +13,19 @@ LaptiData.extendCurrency = function (currency) {
     });
 };
 
+LaptiData.extendAddresses = function (addresses) {
+    addresses = addresses || [];
+    return addresses.map(function (item) {
+        return {
+            name: item.name,
+            title: LaptiData.getCurrencyTitle(item.name),
+            address: item.address || '',
+            amount: 0,
+            tokens: 0
+        };
+    });
+};
+
 LaptiData.currencyTitles = {
     'waves': 'Waves',
     'btc': 'Bitcoin',

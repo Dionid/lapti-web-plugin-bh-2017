@@ -23,6 +23,7 @@ var gulp = require('gulp'),
         less: 'less/**/*.less',
 
         js: [
+            'node_modules/qrious/dist/qrious.js',
             'node_modules/lapti-api/dist/api.js',
             'js/data.js',
             'js/main.js'
