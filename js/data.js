@@ -20,8 +20,8 @@ LaptiData.extendAddresses = function (addresses) {
             name: item.name,
             title: LaptiData.getCurrencyTitle(item.name),
             address: item.address || '',
-            amount: 0,
-            tokens: 0
+            amount: item.amount || 0,
+            tokens: item.tokens || 0
         };
     });
 };
